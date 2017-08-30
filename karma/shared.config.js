@@ -47,6 +47,8 @@ exports.baseConfig = function(karma) {
 				flags: ['--no-sandbox'],
 			},
 		},
+
+		browserNoActivityTimeout: 100000,
 	};
 };
 
